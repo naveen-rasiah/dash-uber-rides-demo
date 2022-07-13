@@ -8,4 +8,5 @@ tasks:
       source .venv/bin/activate
       pip install -r requirements.txt
     command: |
+      source .venv/bin/activate
       python app.py
